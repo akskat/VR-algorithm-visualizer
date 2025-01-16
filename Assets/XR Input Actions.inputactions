@@ -1,0 +1,74 @@
+{
+    "name": "XR Input Actions",
+    "maps": [
+        {
+            "name": "XRControls",
+            "id": "51087601-131e-4158-bfc6-2b45f2c56982",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "6ac54e7f-97d7-4c87-9b1c-0bca53929441",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "d8319d96-7614-439a-8d63-5174e8096ead",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "bdf37cce-87e4-4ed2-86ef-d943566bc836",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e7290fca-0a69-417c-8952-de4b2ec29c33",
+                    "path": "<ViveController>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84451ff7-6d36-4793-b79b-3755a93569d8",
+                    "path": "<ViveController>/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1822e864-549c-4062-b791-bf885584c6ea",
+                    "path": "<ViveController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
