@@ -6,7 +6,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
+
 
 # Visual Studio / VS Code
 .vs/
@@ -61,8 +61,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*s
+/[Uu]serSettings
 ./dist
 
-./.vscode
-./Packages
-
+# Media
+videos/
+*.mp4
+*.mov
+*.avi
+*.webm
